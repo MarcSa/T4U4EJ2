@@ -6,7 +6,9 @@
     >
         <h1 class="display-1 fw-bold text-primary">404</h1>
         <p class="fs-4 text-secondary mb-4">Ups... la página que buscas no existe.</p>
-        <RouterLink to="/" class="btn btn-primary btn-lg"> Volver al inicio </RouterLink>
+        <RouterLink to="/search" class="btn btn-primary btn-lg">
+            Volver a la página de búsqueda
+        </RouterLink>
     </div>
 </template>
 
